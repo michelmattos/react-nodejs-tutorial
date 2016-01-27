@@ -2,7 +2,7 @@
 
 const React = require('react');
 const ReactDOMServer = require('react-dom/server');
-const ReactApp = require("./es5-lib/ReactApp");
+const ReactApp = require("./es5-lib/ReactApp").default;
 
 const express = require('express');
 const app = express();
